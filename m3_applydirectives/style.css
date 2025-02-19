@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.yel{
+    @apply bg-yellow-500 text-black font-bold py-2 px-4 rounded-full;
+}
+
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+    }
+}
